@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    padding: 120px 0;
+}
+
+.hero-description {
+    max-width: 650px;
+    margin: 20px auto 30px;
+}
+
+.page-header {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+}
