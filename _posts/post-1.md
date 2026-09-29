@@ -1,22 +1,28 @@
+---
+layout: post
+title: "My First Markdown Post"
+date: 2026-09-30
+---
+
 # My First Markdown Post
 
-This is a test post for The Tree Institute.
+This is my first Markdown post for **The Tree Institute**.
 
 ## What is Markdown?
 
-Markdown is a simple way to format text.
+Markdown is a simple way to write formatted content.
 
-You can write:
+You can create:
 
 - **Bold text**
 - *Italic text*
-- [Links](https://example.com)
+- Lists
+- Links
+- Headings
+- Blockquotes
 
-### A simple example
+> This is a test of Jekyll and Markdown.
 
-Markdown allows us to write content without manually creating HTML tags.
+## Conclusion
 
-> This is a blockquote.
-
-```python
-print("Hello, The Tree Institute!")
+If Jekyll works correctly, this Markdown file will be converted into an HTML webpage.

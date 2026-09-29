@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ page.title }} | The Tree Institute</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">
+                The Tree Institute
+            </a>
+
+            <div class="navbar-nav ms-auto">
+
+                <a class="nav-link" href="{{ '/' | relative_url }}">
+                    Home
+                </a>
+
+                <a class="nav-link" href="{{ '/about.html' | relative_url }}">
+                    About
+                </a>
+
+                <a class="nav-link" href="{{ '/blog.html' | relative_url }}">
+                    Blog
+                </a>
+
+                <a class="nav-link" href="{{ '/contact.html' | relative_url }}">
+                    Contact
+                </a>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    {{ content }}
+
+
+    <footer class="text-center py-4 bg-light">
+
+        <p class="mb-1">
+            © 2026 The Tree Institute
+        </p>
+
+        <p class="mb-0">
+            For Ten Thousand Birds
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
