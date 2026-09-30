@@ -1,0 +1,42 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="container py-5">
+
+    <h1>Blog</h1>
+
+    <p class="lead">
+        Articles on education, technology, AI, and related topics.
+    </p>
+
+    <hr>
+
+    {% for post in site.posts %}
+
+    <article class="mb-5">
+
+        <h2>
+            <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+            </a>
+        </h2>
+
+        <p class="text-muted">
+            {{ post.date | date: "%B %-d, %Y" }}
+        </p>
+
+        <p>
+            {{ post.excerpt }}
+        </p>
+
+        <a href="{{ post.url | relative_url }}">
+            Read More →
+        </a>
+
+    </article>
+
+    {% endfor %}
+
+</div>
